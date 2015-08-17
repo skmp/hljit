@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hljit\static_tests.cpp">
+      <Filter>hljit</Filter>
+    </ClCompile>
+    <ClCompile Include="hljit\hljit.cpp">
+      <Filter>hljit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hljit\calls.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\hljit.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\vars.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\flow.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\defs.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\functions.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\static_tests.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\ops.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\emit_context.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+    <ClInclude Include="hljit\compile.h">
+      <Filter>hljit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hljit">
+      <UniqueIdentifier>{babea042-36cd-4bac-a9c3-a778ea599760}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
